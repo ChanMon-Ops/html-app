@@ -1,1 +1,1 @@
-# html-app
+# Simple HTML Container App
