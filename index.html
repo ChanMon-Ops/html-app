@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🐙 Podman Container Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117;
+      color: #e6edf3;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .spinner {
+      border: 6px solid rgba(255, 255, 255, 0.1);
+      border-top: 6px solid #b388ff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 30px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #b388ff;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #c9d1d9;
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 15px 25px;
+      border-radius: 12px;
+    }
+
+    .footer {
+      margin-top: 100px;
+      color: #8b949e;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Spinner -->
+  <div class="spinner"></div>
+
+  <h1>Welcome to Podman!</h1>
+  <p>
+    🎉 This page is served from a container managed by <strong>Podman</strong>.<br>
+    If you can see this, everything is working perfectly!
+  </p>
+
+  <div class="footer">© 2025 – Powered by Podman & HTML</div>
+
+</body>
+</html>
+
